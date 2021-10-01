@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'london';/*Colocarum nome para a font family*/
+            src: url('fonts/OldLondon.ttf') format('truetype'),url('fonts/OldLondonAlternate.ttf') format('truetype'), url('fonts/Olondon_.otf')format('opentype'), url('fonts/Olondona.otf')format('opentype');
+            /*Tipos de forma()
+            -opentype(otf)
+            -truetype(ttf)
+            0embedded-opentype
+            truetype-aat(apple  advencede typography)
+            -svg
+            */
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'london', Georgia, Times, 'Times New Roman', serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dolore facilis quisquam? Quas et dolor ab nobis quae sit culpa adipisci ullam. Non, temporibus? Vel esse natus molestias quas suscipit!</p>
+</body>
+</html>
